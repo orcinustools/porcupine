@@ -1,0 +1,29 @@
+{
+  "name": "porcupine",
+  "version": "1.0.0",
+  "description": "Open source alternative to ngrok/serveo using SSH tunneling",
+  "main": "src/server.js",
+  "author": "anak10thn <anak10thn@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anak10thn/porcupine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anak10thn/porcupine/issues"
+  },
+  "homepage": "https://github.com/anak10thn/porcupine#readme",
+  "scripts": {
+    "start:server": "node src/server.js",
+    "start:client": "node src/client.js",
+    "generate-keys": "node src/generate-keys.js",
+    "test": "node test/run-tests.js",
+    "test:server": "node test/test-server.js"
+  },
+  "dependencies": {
+    "ssh2": "^1.15.0",
+    "http-proxy": "^1.18.1",
+    "yargs": "^17.7.2",
+    "debug": "^4.3.4"
+  }
+}
