@@ -24,6 +24,9 @@
     "ssh2": "^1.15.0",
     "http-proxy": "^1.18.1",
     "yargs": "^17.7.2",
-    "debug": "^4.3.4"
+    "debug": "^4.3.4",
+    "greenlock": "^4.0.4",
+    "greenlock-express": "^4.0.3",
+    "acme-dns-01-namecheap": "^3.0.1"
   }
 }
