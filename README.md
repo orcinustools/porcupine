@@ -39,8 +39,8 @@ npm run start:server
 ```
 
 This will start the Porcupine server with:
-- SSH server on port 51397
-- HTTP proxy on port 55504
+- SSH server on port 2222
+- HTTP proxy on port 80
 
 ### Starting the Client
 
@@ -87,7 +87,7 @@ npm run start:client -- \
   --hostname myapp.localhost
 ```
 
-Your local server will be accessible at `http://myapp.localhost:55504`
+Your local server will be accessible at `http://myapp.localhost:80`
 
 ## Development
 
@@ -135,8 +135,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **anak10thn** (anak10thn@gmail.com)
 
-## Acknowledgments
-
-- Inspired by ngrok and serveo
-- Built with Node.js and SSH2
-- Uses http-proxy for request forwarding
+## To Do
+[ ] Support secure connection
+[ ] Bash script client
